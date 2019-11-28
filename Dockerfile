@@ -1,4 +1,6 @@
-FROM eu.gcr.io/continuous-intelligence/gocd-agent-docker-dind-dvc:latest
+FROM eu.gcr.io/continuous-intelligence/cd4ml-workshop:latest
+
+USER root
 
 RUN mkdir -p /app/continuous-intelligence/{src,data}
 
