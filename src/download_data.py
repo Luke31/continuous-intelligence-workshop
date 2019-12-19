@@ -3,7 +3,7 @@ import urllib.request
 import argparse
 
 def load_data(path, key):
-    gcsBucket = "continuous-intelligence"
+    gcsBucket = "continuous-intelligence-ls"
 
     if not os.path.exists(path):
         os.makedirs(path)

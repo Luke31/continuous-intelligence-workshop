@@ -2,7 +2,7 @@
 set -xe
 
 IMAGE_VERSION=${GO_PIPELINE_LABEL:-latest}
-PROJECT_ID=${GCLOUD_PROJECT_ID:-continuous-intelligence}
+PROJECT_ID=${GCLOUD_PROJECT_ID:-continuous-intelligence-ls}
 TENANT_NAMESPACE=${TENANT:-admin}
 FLUENTD_HOST=${FLUENTD_HOST:-""}
 FLUENTD_PORT=${FLUENTD_PORT:-""}
