@@ -15,4 +15,4 @@ cat kubernetes/web.yml \
   | sed "s/\(image: \).*$/\1eu.gcr.io\/$PROJECT_ID\/ci-workshop-app:$TENANT_NAMESPACE.$IMAGE_VERSION/" \
   | kubectl apply -f -
 
-echo "Access your application at: http://$TENANT_NAMESPACE.app.cd4ml.net"
+echo "Access your application at: http://$TENANT_NAMESPACE.app.negi.ch"
